@@ -5911,15 +5911,15 @@
 		(fields_autoplaced yes)
 		(uuid "44b1e90a-0dec-4c48-8d16-7fc0666251c2")
 		(property "Reference" "R12"
-			(at 226.06 151.1642 90)
+			(at 226.06 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k Ohm"
-			(at 226.06 153.7042 90)
+		(property "Value" "10k Ohm"
+			(at 226.06 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
