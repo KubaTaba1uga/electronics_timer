@@ -25,11 +25,8 @@
   },
   "erc": {
     "erc_exclusions": [
-      "pin_not_connected|2298700|939800|0c9b4f21-6c68-472c-810e-3752977ccfef|00000000-0000-0000-0000-000000000000|/693f3838-466f-4255-981c-62a4488d652e|/693f3838-466f-4255-981c-62a4488d652e|",
-      "pin_not_connected|3098800|927100|629d8b8f-c168-414d-90e2-f20ec83b385a|00000000-0000-0000-0000-000000000000|/693f3838-466f-4255-981c-62a4488d652e|/693f3838-466f-4255-981c-62a4488d652e|",
-      "pin_not_connected|381000|406400|a4e225cd-98c5-42fa-a23f-49bf3e7e9670|00000000-0000-0000-0000-000000000000|/693f3838-466f-4255-981c-62a4488d652e|/693f3838-466f-4255-981c-62a4488d652e|",
-      "pin_not_connected|3924300|939800|7e88e271-b703-46cf-b493-146940fc2dab|00000000-0000-0000-0000-000000000000|/693f3838-466f-4255-981c-62a4488d652e|/693f3838-466f-4255-981c-62a4488d652e|",
-      "pin_not_connected|3937000|1460500|4d50d32c-6d13-43cc-a712-1726930b209b|00000000-0000-0000-0000-000000000000|/693f3838-466f-4255-981c-62a4488d652e|/693f3838-466f-4255-981c-62a4488d652e|"
+      "power_pin_not_driven|1752600|1892300|334919cf-83c8-49f0-924c-416d347404e4|00000000-0000-0000-0000-000000000000|/c9e03dd0-38bf-4c75-b787-683c0a57da16|/c9e03dd0-38bf-4c75-b787-683c0a57da16|",
+      "power_pin_not_driven|762000|1295400|068a27a6-275b-44a1-bb9b-796022c6173d|00000000-0000-0000-0000-000000000000|/c9e03dd0-38bf-4c75-b787-683c0a57da16|/c9e03dd0-38bf-4c75-b787-683c0a57da16|"
     ],
     "meta": {
       "version": 0
@@ -230,7 +227,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -245,7 +242,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "electronics_timer.kicad_pro",
+    "filename": "timer.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -377,6 +374,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -390,7 +395,7 @@
   },
   "sheets": [
     [
-      "693f3838-466f-4255-981c-62a4488d652e",
+      "c9e03dd0-38bf-4c75-b787-683c0a57da16",
       "Root"
     ]
   ],

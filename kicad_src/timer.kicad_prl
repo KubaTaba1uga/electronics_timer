@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "electronics_timer.kicad_prl",
+    "filename": "timer.kicad_prl",
     "version": 3
   },
   "project": {

@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "CD4013BE")(type "KiCad")(uri "${KIPRJMOD}/proj_symbols/2024-10-24_07-01-23.kicad_sym")(options "")(descr ""))
-)
